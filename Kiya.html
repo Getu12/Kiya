@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiya Detergent Factory - Premium Cleaning Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Kiya Detergent Factory Logo">
+                <h1>Kiya Detergent Factory</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Premium Quality Detergents</h2>
+                <p>Manufactured with care for superior cleaning performance</p>
+                <a href="#products" class="btn">View Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="product1.jpg" alt="Laundry Detergent">
+                    <h3>Kiya Laundry Powder</h3>
+                    <p>Powerful formula for all fabrics</p>
+                    <span class="price">$12.99</span>
+                </div>
+                <div class="product-card">
+                    <img src="product2.jpg" alt="Dishwashing Liquid">
+                    <h3>Kiya Dish Wash</h3>
+                    <p>Gentle on hands, tough on grease</p>
+                    <span class="price">$8.99</span>
+                </div>
+                <div class="product-card">
+                    <img src="product3.jpg" alt="Multi-Purpose Cleaner">
+                    <h3>Kiya Multi-Clean</h3>
+                    <p>All-surface cleaner for your home</p>
+                    <span class="price">$10.99</span>
+                </div>
+                <div class="product-card">
+                    <img src="product4.jpg" alt="Bleach">
+                    <h3>Kiya Fabric Brightener</h3>
+                    <p>Keeps whites bright and fresh</p>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Kiya Detergent Factory</h2>
+                    <p>Founded in 2005, Kiya Detergent Factory has been a trusted name in cleaning solutions for nearly two decades. Our commitment to quality and innovation has made us a leader in the detergent manufacturing industry.</p>
+                    <p>We use only the finest ingredients and employ rigorous quality control measures to ensure our products meet the highest standards. Our environmentally friendly formulations are tough on dirt but gentle on the planet.</p>
+                </div>
+                <div class="about-image">
+                    <img src="factory.jpg" alt="Kiya Detergent Factory">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Industrial Zone, Nairobi, Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254 700 123 456</p>
+                    <p><i class="fas fa-envelope"></i> info@kiyadetergent.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-white.png" alt="Kiya Detergent Factory Logo">
+                    <h3>Kiya Detergent Factory</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-products">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Laundry Detergents</a></li>
+                        <li><a href="#">Dishwashing Liquids</a></li>
+                        <li><a href="#">Multi-Purpose Cleaners</a></li>
+                        <li><a href="#">Bleaches & Fabric Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates and offers</p>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Kiya Detergent Factory. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
